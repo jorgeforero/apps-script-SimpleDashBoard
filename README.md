@@ -1,20 +1,19 @@
 # GAS-SimpleDashBoard
 
-Displays data from a Spreadsheet using bootstrap. This is a Google Script Webapp.
+Displays data from a Spreadsheet on a DashBoard using Bootstrap. This is a Google Script Webapp.
 
 IMPORTANT:
 
-1- This is a small part from a bigger project. It was extracted to ilustrate the way to get data from a Spreadsheet and display
-it using a Google Script Webapp.
+1- This is a small part from a bigger project. It was extracted to ilustrate the way to get data from a Spreadsheet and display it using a Google Script Webapp.
 
 2- Replace the values XXX-ID-XXX and XXX-PATH-XXX.
 
-3- Some comments in the code are in Spanish.
+3- Some comments, on the code, are in Spanish - Maybe it's time to learn/practice Spanish :-) 
 
-4- This is the column structure od the SchemaDB Spreadsheet:
+4- These are the columns of SchemaDB Spreadsheet:
 
 ![](images/SS_SchemaDB.png)
 
-This is the result:
+This is the result of the webapp:
 
 ![](images/dashboard.png)
