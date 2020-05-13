@@ -17,5 +17,4 @@ it using a Google Script Webapp.
 
 This is the result:
 
-
-
+![](images/dashboard.png)
