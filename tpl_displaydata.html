@@ -1,0 +1,74 @@
+<!--Indicators -->
+<div class="panel panel-container">
+  <div class="row">
+    <div class="col-xs-6 col-md-3 col-lg-3 no-padding">
+      <div class="panel panel-blue panel-widget border-right">
+        <div class="row no-padding"><em class="fas fa-xl fa-running color-blue"></em>
+          <div class="large">##TOTALATHLETES##</div>
+          <div class="text-muted">Total Atletas</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3 col-lg-3 no-padding">
+      <div class="panel panel-teal panel-widget border-right">
+        <div class="row no-padding"><em class="fa fa-xl fa-running color-teal"></em>
+          <div class="large">##TOTALACTIVE##</div>
+          <div class="text-muted">Total Atletas Activos</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3 col-lg-3 no-padding">
+      <div class="panel panel-blue panel-widget border-right">
+        <div class="row no-padding"><em class="fas fa-xl fa-users color-blue"></em>
+          <div class="large">##TOTALPLANS##</div>
+          <div class="text-muted">Grupos Activos</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3 col-lg-3 no-padding">
+      <div class="panel panel-red panel-widget ">
+        <div class="row no-padding"><em class="fa fa-xl fa-reply color-red"></em>
+          <div class="large">##TOTALFEEDS##</div>
+          <div class="text-muted">Feeds Pendientes</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<!--/Indicators -->
+<!-- Percentages -->
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <div class="panel panel-default">
+      <div class="panel-body easypiechart-panel">
+        <h5>Atletas Hombres</h5>
+        <div class="easypiechart" id="easypiechart-teal" data-percent="##MENPRCTG##"><span class="percent">##MENPRCTG##%</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <div class="panel panel-default">
+      <div class="panel-body easypiechart-panel">
+        <h5>Atletas Mujeres</h5>
+        <div class="easypiechart" id="easypiechart-orange" data-percent="##WOMENPRCTG##"><span class="percent">##WOMENPRCTG##%</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <div class="panel panel-default">
+      <div class="panel-body easypiechart-panel">
+        <h5>Atletas Envío Diario</h5>
+        <div class="easypiechart" id="easypiechart-blue" data-percent="##DAILLYPRCTG##"><span class="percent">##DAILLYPRCTG##%</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <div class="panel panel-default">
+      <div class="panel-body easypiechart-panel">
+        <h5>Atletas Con Zonas</h5>
+        <div class="easypiechart" id="easypiechart-red" data-percent="##ZONESPRCTG##"><span class="percent">##ZONESPRCTG##%</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Percentages -->
