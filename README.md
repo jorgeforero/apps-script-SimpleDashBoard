@@ -13,5 +13,6 @@ it using a Google Script Webapp.
 
 3- Some comments in the code are in Spanish.
 
+4- This is the column structure od the SchemaDB Spreadsheet:
 
-
+![](images/SS_SchemaDB)
