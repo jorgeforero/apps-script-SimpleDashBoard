@@ -1,7 +1,5 @@
 # GAS-SimpleDashBoard
 
-Simple Dashboard
-
 Displays data from a Spreadsheet using bootstrap. This is a Google Script Webapp.
 
 IMPORTANT:
@@ -15,4 +13,9 @@ it using a Google Script Webapp.
 
 4- This is the column structure od the SchemaDB Spreadsheet:
 
-![](images/SS_SchemaDB)
+![](images/SS_SchemaDB.png)
+
+This is the result:
+
+
+
