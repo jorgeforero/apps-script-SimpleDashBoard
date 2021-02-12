@@ -1,6 +1,6 @@
 # GAS-SimpleDashBoard
 
-Displays data from a Spreadsheet on a DashBoard using Bootstrap. This is a Google Script Webapp.
+Displays data from a Spreadsheet on a DashBoard using Bootstrap. This is a Google Apps Script Webapp.
 
 IMPORTANT:
 
